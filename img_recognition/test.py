@@ -9,9 +9,12 @@ import tensorflow as tf
 import numpy as np
 
 path = './img/'
+#批次
 batch_count = 0
 batch_size = 20
+#遍历数据集次数
 epoch_num = 10
+#图像大小
 resize_w = 128
 resize_h = 128
 label_size = 2
